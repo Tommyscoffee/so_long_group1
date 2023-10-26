@@ -4,11 +4,9 @@ void	add_move_cnt(t_vars *vars)
 {
 	int	x;
 	int	y;
-	int	col;
 
 	x = 0;
 	y = 0;
-	col = 0;
 	vars->move_cnt++;
 	printf("count = %d\n", vars->move_cnt);
 	rendermap(vars, x, y);

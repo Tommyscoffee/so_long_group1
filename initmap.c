@@ -4,11 +4,9 @@ void	initmap(t_vars *vars)
 {
 	int	x;
 	int	y;
-	int	col;
 
 	x = 0;
 	y = 0;
-	col = 0;
 	while (y < vars->map_height)
 	{
 		x = 0;

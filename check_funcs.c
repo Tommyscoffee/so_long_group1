@@ -2,9 +2,6 @@
 
 void	check_map(t_vars *vars)
 {
-	int	i;
-
-	i = 0;
 	if (vars->Eflag[0] == 0)
 	{
 		put_error("map has no character\n");

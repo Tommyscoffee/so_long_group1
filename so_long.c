@@ -70,11 +70,9 @@ int	remap(t_vars *vars)
 {
 	int	x;
 	int	y;
-	int	col;
 
 	x = 0;
 	y = 0;
-	col = 0;
 	rendermap(vars, x, y);
 	return (0);
 }
