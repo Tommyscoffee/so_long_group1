@@ -30,11 +30,10 @@ int	put_memo(char *str, char **memo)
 int	put_line(char **memo, char **line)
 {
 	size_t	i;
-	size_t	j;
 	char	*tmp;
 
 	i = 0;
-	j = 0;
+
 	while ((*memo)[i] != '\n')
 		i++;
 	*line = (char *)malloc(sizeof(char) * (i + 1));
@@ -67,9 +66,6 @@ int	check_memo(char *memo)
 
 int	put_eof(char **memo, char **line)
 {
-	int	i;
-
-	i = 0;
 	*line = ft_strdup(*memo);
 	free(*memo);
 	*memo = NULL;
